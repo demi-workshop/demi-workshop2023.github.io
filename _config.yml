@@ -1,10 +1,10 @@
-title: CaPTion Workshop @ MICCAI 2022
-description: MICCAI 2022 Workshop on "Cancer Prevention through early detecTion"
+title: Demi Workshop @ MICCAI 2023
+description: DEMI 2023 Workshop on "1st Workshop in Data Engineering in Medical Imaging "
 show_downloads: true
 
 google_analytics:
 theme: jekyll-theme-cayman
-header: assets/images/caption.jpg
+header: assets/images/demi_logo2.png
 
 plugins:
   - jekyll-gist
