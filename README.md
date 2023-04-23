@@ -2,6 +2,8 @@
 - Vancouver, 
 Canada 
 
+https://demi-workshop.github.io (MICCAI 2023 - workshop)
+
 **Organisers:**
 Binod Bhattarai, Sharib Ali, Anita Rau, Anh Nguyen, Ana Namburete, Razvan 
 Caramalau, and Danail Stoyanov
