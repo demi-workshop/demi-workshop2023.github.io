@@ -49,20 +49,26 @@
           </ul>
 
         <h1 id="workshop-description">Workshop Description</h1>
-            <p align="justify">Data engineering plays a vital role in advancing medical imaging research, where limited data availability poses a significant challenge. To tackle this issue, the medical imaging community has adopted various techniques, including active learning, label and data augmentation, self-supervision, and synthetic data generation.
-
-However, the potential of these methods has yet to be fully leveraged. Data augmentation, for instance, is often randomly chosen based on intuition. Yet previous work has shown that it is crucial to jointly optimize the augmentations' complexity and affinity, i.e., how much the augmentation shifts the decision boundary of the clean baseline model. Other studies suggest that not every synthetic example improves the model's generalizability, with some even hurting performance if not reasonably chosen. Similarly, the effect of self-supervised pre-training methods on downstream tasks generally depends on the overlap between the pretext task and the downstream tasks. For instance, a model trained to predict rotation angles will not be effective in rotationally invariant organs. 
-
-We witness various research efforts in the data engineering domain, but most are pursued in isolation. And many research questions in data engineering that are of utmost importance to the success of machine learning methods for medical image analysis remain unanswered. 
+            <p align="justify">Data engineering plays a vital role in advancing medical imaging research, where limited data availability poses a significant challenge. 
+                To tackle this issue, the medical imaging community has adopted various techniques, including active learning, label and data augmentation, self-supervision, and synthetic data generation.</p>
+<p align="justify">However, the potential of these methods has yet to be fully leveraged. Data augmentation, for instance, is often randomly chosen based on intuition. 
+    Yet previous work has shown that it is crucial to jointly optimize the augmentations' complexity and affinity, i.e., how much the augmentation shifts the decision boundary of the clean baseline model. 
+    Other studies suggest that not every synthetic example improves the model's generalizability, with some even hurting performance if not reasonably chosen. 
+    Similarly, the effect of self-supervised pre-training methods on downstream tasks generally depends on the overlap between the pretext task and the downstream tasks. 
+    For instance, a model trained to predict rotation angles will not be effective in rotationally invariant organs.   </p>  
+<p align="justify">We witness various research efforts in the data engineering domain, but most are pursued in isolation. And many research questions in data engineering that are of utmost importance to the success of machine learning methods for medical image analysis remain unanswered. 
 Some questions this workshop hopes to help answer are:
-                -What data should we collect to train a model for a given medical task?
-                 -How do we identify the diverse and discriminative examples for a downstream task in complex biomedical datasets? For instance, do we need to annotate every frame in a surgical video? 
-                -How do we identify the best augmentation strategy?
-                -What is the best way to spend a data labeling budget (time/money)? How much data should we collect, and how much of it should we label? 
-                -How do we learn to synthesize the data for a downstream medical task? 
-                -How do we design suitable pretext tasks for a particular downstream task? 
-                -And overall, how can we blend these data-related works to extract the most benefit from the data?
+                <ul>
 
+                
+                <li>What data should we collect to train a model for a given medical task?</li>
+                <li>How do we identify the diverse and discriminative examples for a downstream task in complex biomedical datasets? For instance, do we need to annotate every frame in a surgical video? </li>
+                <li>How do we identify the best augmentation strategy?</li>
+                <li>What is the best way to spend a data labeling budget (time/money)? How much data should we collect, and how much of it should we label? </li>
+                <li>How do we learn to synthesize the data for a downstream medical task? </li>
+                <li>How do we design suitable pretext tasks for a particular downstream task? </li>
+                <li>And overall, how can we blend these data-related works to extract the most benefit from the data?</li>
+                </ul>  
 
               
             </p>  
